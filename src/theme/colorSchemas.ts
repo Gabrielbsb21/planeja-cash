@@ -13,7 +13,7 @@ const colorSchemas = () => ({
   },
   background: {
     default: "#FAFAFA",
-    paper: "#F2F2F2",
+    paper: "#FFF",
   },
   text: {
     primary: "#2D2D2D",
