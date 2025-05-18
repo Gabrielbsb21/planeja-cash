@@ -2,7 +2,7 @@ import { Card as CardUi, Typography, Button as ButtonUi } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
 export const Card = styled(CardUi)(({ theme }) => ({
-  maxWidth: 800,
+  maxWidth: 820,
   zIndex: 1,
   position: "relative",
   padding: theme.spacing(4, 4),
@@ -22,10 +22,11 @@ export const Card = styled(CardUi)(({ theme }) => ({
 }));
 
 export const H1 = styled(Typography)(({ theme }) => ({
-  fontSize: "2rem",
+  fontSize: "1.875rem",
   fontWeight: 700,
   lineHeight: "2.5rem",
   marginBottom: theme.spacing(4),
+  color: "#333",
 
   [theme.breakpoints.down("md")]: {
     fontSize: "1.5rem",
